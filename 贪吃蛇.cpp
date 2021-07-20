@@ -19,8 +19,8 @@ void start()
 
 	setbkcolor(WHITE);		
 	cleardevice();			
-	setbkmode(TRANSPARENT);	//璁剧疆瀛椾綋鑳屾櫙鑹蹭负閫忔槑
-	settextcolor(BLACK);		//璁剧疆瀛椾綋棰滆壊涓虹孩鑹?
+	setbkmode(TRANSPARENT);	
+	settextcolor(BLACK);		
 	
 	outtextxy(390, 130, L"功能选择");
 	outtextxy(380, 200, L"1.普通模式");
@@ -28,9 +28,7 @@ void start()
 	outtextxy(380, 300, L"3.穿墙模式");
 	outtextxy(280, 330, L"数字键1,2或上下键选择模式，enter键进入游戏");
 	outtextxy(280, 350, L"字母键W,S,A,D 方向键上下左右 控制方向");
-//	outtextxy(130, 400, L"鐩稿叧鍐呭锛?);
-//		outtextxy(160, 380, L"关注微信公众号");
-//	outtextxy(160, 410, L"编程学习加群:  879098023");
+
 }
 void chose()
 {
